@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@500&display=swap");
+.review {
+  font-family: "Atma", cursive;
+  font-size: 1.3rem;
+  overflow-wrap: break-word;
+}
+.picture {
+  object-fit: contain;
+  width: 100%;
+}
+.main {
+  border: 3px solid black;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: rgb(251, 255, 7);
+  background: black;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.navbar {
+  display: flex;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+}
+
+.navbar a {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 999px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px;
+  color: black;
+  font-weight: bold;
+  transition: all 2s;
+}
+.navbar a:hover {
+  transition: ease-in-out 0.8s;
+  background: rgb(224, 16, 197);
+  color: white;
+  border: 3px solid white;
+  -webkit-box-shadow: -10px 9px 0px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 9px 0px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px 9px 0px -2px rgba(0, 0, 0, 0.75);
+
+  border-radius: 20px 0px 22px 0px;
+  -moz-border-radius: 20px 0px 22px 0px;
+  -webkit-border-radius: 20px 0px 22px 0px;
+  border: 3px solid #000000;
+}
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background: white;
+  z-index: 1;
+  padding-bottom: 10px;
+}
+.main {
+  border-radius: 10px;
+}
+.main:hover {
+  -webkit-box-shadow: -8px 3px 0px 0px rgba(63, 62, 62, 0.75);
+  -moz-box-shadow: -8px 3px 0px 0px rgba(63, 62, 62, 0.75);
+  box-shadow: -8px 3px 0px 0px rgba(63, 62, 62, 0.75);
+  transition: all 3s;
+}
+.review {
+  padding-left: 7px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+.navbar a:first-child {
+  display: flex;
+
+  /* justify-content: space-around; */
+  border: 0px;
+  float: left;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  margin-right: auto;
+}
+
+.navbar a:last-child {
+  border: 0px;
+  color: #3b5998;
+  padding-bottom: 0;
+}
+.navbar a:last-child:hover {
+  border: 0px;
+  color: #e7008a;
+  box-shadow: none;
+  background: none;
+}
+.navbar a:first-child:hover {
+  border: 0px;
+  color: rgb(238, 12, 208);
+  box-shadow: none;
+  background: none;
+  letter-spacing: 3px;
+}
+.Post {
+  background: rgb(245, 244, 244);
+  margin-top: 50px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-around;
+}
+@media (max-width: 415px) {
+  .main {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+.MuiCardContent-root {
+  color: rgb(192, 192, 192);
+  font-size: 10px;
+}
+.mothal {
+  width: 400;
+  background-color: transparent;
+  border: "2px solid #000";
+  box-shadow: 5px;
+  padding: 2px 4px 3px;
+  color: white;
+
+  margin-bottom: 10%;
+}
+p#simple-modal-description {
+  overflow: scroll !important;
+  /* padding-bottom: 20px !important; */
+  /* margin-bottom: 100px !important; */
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
+  margin-bottom: 11px;
+}
+
+@media (max-width: 978px) {
+  .wrap {
+    border: 1px solid;
+    height: 77vh;
+    overflow: scroll;
+    background: black;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap");
+.wrap {
+  font-family: "Hind Siliguri", "Sans-serif";
+}
+.inner-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transform: translateZ(60px);
+}
+.parallax-effect-glare-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  width: fit-content;
+
+  width: fit-content;
+}
+.MuiPaper-root.MuiCard-root.makeStyles-root-35.MuiPaper-elevation1.MuiPaper-rounded {
+  background-image: linear-gradient(
+    to right top,
+    #f865a1,
+    #fb699b,
+    #fd6d95,
+    #fe728f,
+    #ff778a,
+    #ff7c85,
+    #ff8180,
+    #ff877c,
+    #ff8e77,
+    #ff9572,
+    #ff9c6d,
+    #ffa46a
+  );
+  -webkit-box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+  -moz-box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+  box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+}
+.MuiPaper-root.MuiCard-root.makeStyles-root-15.MuiPaper-elevation1.MuiPaper-rounded {
+  background-image: linear-gradient(
+    to right top,
+    #f865a1,
+    #fb699b,
+    #fd6d95,
+    #fe728f,
+    #ff778a,
+    #ff7c85,
+    #ff8180,
+    #ff877c,
+    #ff8e77,
+    #ff9572,
+    #ff9c6d,
+    #ffa46a
+  );
+  -webkit-box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+  -moz-box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+  box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+}
+.MuiPaper-root.MuiCard-root.jss7.MuiPaper-elevation1.MuiPaper-rounded {
+  background-image: linear-gradient(
+    to right top,
+    #f865a1,
+    #fb699b,
+    #fd6d95,
+    #fe728f,
+    #ff778a,
+    #ff7c85,
+    #ff8180,
+    #ff877c,
+    #ff8e77,
+    #ff9572,
+    #ff9c6d,
+    #ffa46a
+  );
+  -webkit-box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+  -moz-box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+  box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+}
+.MuiTypography-colorTextSecondary {
+  color: rgb(0 0 0 / 98%) !important;
+}
+span.MuiTypography-root.MuiCardHeader-title.MuiTypography-body2.MuiTypography-displayBlock {
+  color: white !important;
+}
+.MuiPaper-root {
+  background-image: linear-gradient(
+    to right top,
+    #f865a1,
+    #fb699b,
+    #fd6d95,
+    #fe728f,
+    #ff778a,
+    #ff7c85,
+    #ff8180,
+    #ff877c,
+    #ff8e77,
+    #ff9572,
+    #ff9c6d,
+    #ffa46a
+  );
+  -webkit-box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+  -moz-box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+  box-shadow: 0px -1px 21px -4px rgba(235, 97, 47, 1);
+}
